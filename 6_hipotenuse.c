@@ -4,7 +4,7 @@
 int main() {
   double side1, side2, hypotenuse;
 
-  printf("Enter the length of side 1: ");
+  printf("\nEnter the length of side 1: ");
   scanf("%lf", &side1);
 
   printf("Enter the length of side 2: ");
@@ -12,7 +12,7 @@ int main() {
 
   hypotenuse = sqrt((side1 * side1) + (side2 * side2));
 
-  printf("The length of the hypotenuse is: %lf\n", hypotenuse);
+  printf("\nThe length of the hypotenuse is: %lf\n\n", hypotenuse);
 
   return 0;
 }
